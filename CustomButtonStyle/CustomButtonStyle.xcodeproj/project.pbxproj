@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BAEA701D913AFE00D666EF /* ImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BAEA6F1D913AFE00D666EF /* ImageTitleButton.m */; };
 		3E8916471C322CB900BC0100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8916461C322CB900BC0100 /* main.m */; };
 		3E89164A1C322CB900BC0100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8916491C322CB900BC0100 /* AppDelegate.m */; };
 		3E89164D1C322CB900BC0100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89164C1C322CB900BC0100 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17BAEA6E1D913AFE00D666EF /* ImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTitleButton.h; path = ../../../../workspace/ECommerce/ECommerce/UI/Custom/Button/ImageTitleButton.h; sourceTree = "<group>"; };
+		17BAEA6F1D913AFE00D666EF /* ImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageTitleButton.m; path = ../../../../workspace/ECommerce/ECommerce/UI/Custom/Button/ImageTitleButton.m; sourceTree = "<group>"; };
 		3E8916421C322CB900BC0100 /* CustomButtonStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomButtonStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8916461C322CB900BC0100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E8916481C322CB900BC0100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		3E8916441C322CB900BC0100 /* CustomButtonStyle */ = {
 			isa = PBXGroup;
 			children = (
+				17BAEA6E1D913AFE00D666EF /* ImageTitleButton.h */,
+				17BAEA6F1D913AFE00D666EF /* ImageTitleButton.m */,
 				3E89165C1C322CC400BC0100 /* MKButtonCategory */,
 				3E8916481C322CB900BC0100 /* AppDelegate.h */,
 				3E8916491C322CB900BC0100 /* AppDelegate.m */,
@@ -163,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E89164D1C322CB900BC0100 /* ViewController.m in Sources */,
+				17BAEA701D913AFE00D666EF /* ImageTitleButton.m in Sources */,
 				3E89164A1C322CB900BC0100 /* AppDelegate.m in Sources */,
 				3E89165F1C322CE900BC0100 /* UIButton+ImageTitleSpacing.m in Sources */,
 				3E8916471C322CB900BC0100 /* main.m in Sources */,
@@ -312,6 +318,7 @@
 				3E89165B1C322CB900BC0100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

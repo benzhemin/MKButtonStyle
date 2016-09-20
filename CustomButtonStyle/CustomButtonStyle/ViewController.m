@@ -9,12 +9,14 @@
 #import "ViewController.h"
 #import "UIButton+ImageTitleSpacing.h"
 
+#import "ImageTitleButton.h"
+
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UIButton *topButton;
-@property (weak, nonatomic) IBOutlet UIButton *leftButton;
-@property (weak, nonatomic) IBOutlet UIButton *bottomButton;
-@property (weak, nonatomic) IBOutlet UIButton *rightButton;
+@property (weak, nonatomic) IBOutlet ImageTitleButton *topButton;
+@property (weak, nonatomic) IBOutlet ImageTitleButton *leftButton;
+@property (weak, nonatomic) IBOutlet ImageTitleButton *bottomButton;
+@property (weak, nonatomic) IBOutlet ImageTitleButton *rightButton;
 
 @end
 
@@ -32,14 +34,23 @@
     [self.topButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop
                                     imageTitleSpace:space];
     
+    self.topButton.layer.borderColor = [UIColor redColor].CGColor;
+    self.topButton.layer.borderWidth = 1.0;
+    
     [self.leftButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleLeft
                                      imageTitleSpace:space];
+    self.leftButton.layer.borderColor = [UIColor redColor].CGColor;
+    self.leftButton.layer.borderWidth = 1.0;
     
     [self.bottomButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleBottom
                                        imageTitleSpace:space];
+    self.bottomButton.layer.borderColor = [UIColor redColor].CGColor;
+    self.bottomButton.layer.borderWidth = 1.0;
     
     [self.rightButton layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleRight
                                       imageTitleSpace:space];
+    self.rightButton.layer.borderColor = [UIColor redColor].CGColor;
+    self.rightButton.layer.borderWidth = 1.0;
 }
 
 - (void)didReceiveMemoryWarning {

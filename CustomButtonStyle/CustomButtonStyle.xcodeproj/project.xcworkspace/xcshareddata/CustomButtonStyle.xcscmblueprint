@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D261479D6BC2FF3DEA779517E6ED025D547A47D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A0A228F8A4FF837481D11D3A836A958F81E1AEAD" : 0,
+    "2D261479D6BC2FF3DEA779517E6ED025D547A47D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EE466CE7-3263-45EF-AC6F-A3059FEB7EE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A0A228F8A4FF837481D11D3A836A958F81E1AEAD" : "..\/workspace\/ECommerce",
+    "2D261479D6BC2FF3DEA779517E6ED025D547A47D" : "MKButtonStyle\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomButtonStyle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomButtonStyle\/CustomButtonStyle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benzhemin\/MKButtonStyle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D261479D6BC2FF3DEA779517E6ED025D547A47D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlabyic.drdsds.com:50001\/zhangzhe\/ecommerceios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0A228F8A4FF837481D11D3A836A958F81E1AEAD"
+    }
+  ]
+}
